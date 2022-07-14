@@ -71,7 +71,7 @@ section h2 {
     border-radius: 30px;
     background-color: red;
     border-color: red;
-    width:260px;
+    width:265px;
     border-width: 15px;
     transition: all 0.5s ease; //for best hover effect
 }
