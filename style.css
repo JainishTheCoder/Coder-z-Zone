@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    padding: 30px;
+    background-image: url("headingback.png");
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-weight: 1000;
+}
+
+nav {
+    background-color: gray;
+    padding-right: 20px;
+    /* text-align: center; */
+    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+    color: aliceblue;
+    font-weight: 600;
+    border-style: solid;
+    border-color: rgb(100, 0, 0);
+    background-color: rgb(100, 0, 0);
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    margin: 10px;
+}
+
+section h2 {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+}
+
+.login {
+    float: right;
+    padding-right: 25px;
+    padding-left: 15px font-weight: 600;
+}
+
+.login a {
+    border-style: solid;
+    border-color: rgb(100, 0, 0);
+    border-radius: 15px;
+    padding-bottom: 7px;
+    background-color: rgb(100, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.coursebutton h3 {
+    border-style: solid;
+    border-radius: 30px;
+    background-color: red;
+    border-color: red;
+    width:260px;
+    border-width: 15px;
+    transition: all 0.5s ease; //for best hover effect
+}
+
+.coursebutton a {
+    text-decoration: none;
+    color: black;
+}
+
+.coursebutton {
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-top: 35px;
+}
+.coursebutton h3:hover
+{
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: grey;
+    border-style: solid;
+    border-color: grey;
+    border-width: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.founder {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 15px;
+}
+
+.founder a {
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: 1000;
+    font-size: large;
+}
+
+.coursecards {
+    text-align: center;
+}
+
+.coursecards a {
+    margin: 15px;
+}
+
+.coursecards img {
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(131, 130, 130);
+    transition: all 0.5s ease; //for best hover effect
+}
+.coursecards img:hover
+{
+    transform: scale(1.1);
+
+}
+
+div p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    border-style: solid;
+    width: max-content;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div.contacthead {
+    padding-left: 550px;
+}
+
+
+.contactcard {
+    text-align: center;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    background-color: rgb(185,185,185);
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 10px 10px 10px rgb(175, 208, 219);
+    margin-left: 340px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+Styling form-control Label
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color:cadetblue;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.formbody{
+    background-color:whitesmoke;
+}
+div p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    border-style: solid;
+    width: max-content;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.surveyhead {
+    padding-left: 545px;
+}
